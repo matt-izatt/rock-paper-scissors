@@ -1,4 +1,4 @@
-# RockPaperScissors
+# Rock Paper Scissors
 
 This project is a simple game of Rock-Paper-Scissors written using Angular 11.0.4.
 
