@@ -1,6 +1,6 @@
 # RockPaperScissors
 
-This project is a simple game of Rock-PaperScissors written using Angular 11.0.4.
+This project is a simple game of Rock-Paper-Scissors written using Angular 11.0.4.
 
 ## Install the dependencies
 
