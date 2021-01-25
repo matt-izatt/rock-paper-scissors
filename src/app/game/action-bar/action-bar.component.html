@@ -1,0 +1,24 @@
+<div class="action-bar">
+  <div class="action-bar__actions">
+    <button class="action rock"
+            [class.enabled]="chosenAction === 'Rock' || chosenAction === ''"
+            (click)="setActionChoice('Rock')">
+      <img class="action__icon" src="assets/rock.svg" alt="Rock">
+      <label class="action__text">Rock</label>
+    </button>
+
+    <button class="action paper"
+            [class.enabled]="chosenAction === 'Paper' || chosenAction === ''"
+            (click)="setActionChoice('Paper')">
+      <img class="action__icon" src="assets/paper.svg" alt="Paper">
+      <label class="action__text">Paper</label>
+    </button>
+
+    <button class="action scissors"
+            [class.enabled]="chosenAction === 'Scissors' || chosenAction === ''"
+            (click)="setActionChoice('Scissors')">
+      <img class="action__icon" src="assets/scissors.svg" alt="Scissors">
+      <label class="action__text">Scissors</label>
+    </button>
+  </div>
+</div>

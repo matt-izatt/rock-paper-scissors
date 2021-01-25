@@ -1,0 +1,24 @@
+<main>
+  <section class="score">
+    <app-scoreboard
+      [playerScore]="playerScore"
+      [computerScore]="computerScore">
+    </app-scoreboard>
+  </section>
+
+  <section class="play">
+    <app-play-area
+      [playerAction]="playerAction"
+      [computerAction]="computerAction"
+      [result]="result"
+    (animationFinished)="nextRound()">
+    </app-play-area>
+  </section>
+
+  <section class="actions">
+    <app-action-bar
+      [chosenAction]="playerAction"
+      (actionChosen)="startRound($event)">
+    </app-action-bar>
+  </section>
+</main>

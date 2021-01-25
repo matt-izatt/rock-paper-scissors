@@ -1,0 +1,12 @@
+<div class="play-area">
+  <div class="play-area__title" *ngIf="playerAction !== ''">{{title}}!</div>
+  <div class="play-area__title" *ngIf="playerAction === ''">Choose your action:</div>
+
+  <div class="play-area__zone play-area__zone--player" *ngIf="playerDisplayAction !== ''">
+    <img class="action" src="assets/{{playerDisplayAction.toLowerCase()}}.svg" alt="{{playerDisplayAction}}">
+  </div>
+
+  <div class="play-area__zone play-area__zone--computer" *ngIf="computerDisplayAction !== ''">
+    <img class="action" src="assets/{{computerDisplayAction.toLowerCase()}}.svg" alt="{{computerDisplayAction}}">
+  </div>
+</div>

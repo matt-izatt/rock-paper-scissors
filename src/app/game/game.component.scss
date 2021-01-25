@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  width: 100vw;
+  max-width: 100rem;
+  height: 100vh;
+
+  .play {
+    flex-grow: 1;
+  }
+}
